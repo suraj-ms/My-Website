@@ -1,0 +1,305 @@
+.main {
+    width: 100%;
+    display: flex;
+    margin-left: 60px;
+    position: relative;
+
+}
+
+.profile-image {
+    width: 30vw;
+    height: 100vh;
+    position: fixed;
+    box-shadow: 0 0 10px rgba(22, 22, 22, 0.8);
+
+    
+}
+
+.profile-image img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-image ul {
+    list-style: none;
+    width: 100%;
+    position: absolute;
+    /* position: relative; */
+    top: 85%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.profile-image ul li {
+    margin: 10px;
+}
+
+.profile-image ul li a ion-icon {
+    font-size: 20px;
+}
+
+.profile-image h2{
+    width: 100%;
+    margin: 10px 0;
+    position: absolute;
+    top: 75%;
+    text-align: center;
+}
+
+.profile-image p{
+    width: 100%;
+    margin: 10px 0;
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    color: var(--color-theme);
+}
+
+.user-details {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background-color);
+    padding: 30px;
+    margin-left: 30vw;
+    
+}
+
+.user-details .about-me h1{
+    font-size: 3rem;
+    /* font-weight:bold; */
+}
+
+
+.user-details .about-me .dob{
+    margin-top: 10px;
+    color: var(--color-theme);
+}
+
+.user-details .about-me p{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.user-details .about-me  .description{
+    color: var(--p-color);
+}
+
+.user-details .about-me p span{
+    color: var(--color-theme);
+}
+
+.user-details hr{
+    color: var(--p-color);
+}
+
+.user-details .education{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+.user-details .education .school-name {
+    margin-bottom: 10px;
+}
+
+.user-details .education .school-name b {
+    color: var(--color-theme);
+
+}
+
+.user-details .education .degree-details{
+    color: var(--p-color);
+    margin-top: 5px;
+}
+
+.user-details .skills .academic-course{
+    margin-bottom: 40px;
+}
+
+.user-details .skills .academic-course p{
+    color: var(--p-color);
+}
+
+
+.user-details .education h2, .user-details .skills .academic-course h2,
+    .user-details .skills .personal-skills h2{
+    margin-bottom: 10px;
+}
+
+.competitive-programing h2 ion-icon,
+.certificate h2 ion-icon,
+.experience h2 ion-icon,
+.projects h2 ion-icon,
+.user-details .skills .academic-course ion-icon,
+    .user-details .skills .personal-skills ion-icon{
+    color: var(--color-theme);
+    margin-right: 10px;
+    transform: translateY(2px);
+}
+
+.user-details .skills .personal-skills .skill-menu{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 10px;
+}
+
+.user-details .skills .personal-skills .skill-menu .code,
+.user-details .skills .personal-skills .skill-menu .technologies,
+.user-details .skills .personal-skills .skill-menu .web,
+.user-details .skills .personal-skills .skill-menu .test
+{
+
+    /* width: 50%; */
+    font-size: 1rem;
+    /* border: 1px solid var(--color-theme); */
+    border-radius: 5px;
+}
+
+.user-details .skills .personal-skills .skill-menu .code ul,
+.user-details .skills .personal-skills .skill-menu .technologies ul,
+.user-details .skills .personal-skills .skill-menu .web ul,
+.user-details .skills .personal-skills .skill-menu .test ul{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.user-details .skills .personal-skills .skill-menu .test ul{
+    margin-bottom: 25px;
+}
+
+.user-details .skills .personal-skills .skill-menu .code ul li,
+.user-details .skills .personal-skills .skill-menu .technologies ul li,
+.user-details .skills .personal-skills .skill-menu .web ul li,
+.user-details .skills .personal-skills .skill-menu .test ul li{
+    list-style: none;
+    line-height:150%;
+    
+    color: var(--p-color);
+}
+
+.experience, .projects, .certificate, .competitive-programing{
+    margin-top: 40px;
+   
+}
+
+.experience h2, .projects h2, .certificate h2, .competitive-programing h2{
+    margin-bottom: 20px;
+}
+
+.experience .years-experience{
+    color: var(--color-theme);
+    margin-bottom: 10px;
+}
+
+.experience .company-name, .projects .Project-name, .certificate .certificate-name{
+    margin-bottom: 10px;
+}
+
+
+.experience .domain, .projects .project-host-details, .certificate .certificate-host-details{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.experience .python{
+    margin-top: 40px;
+}
+
+.experience ul li, .projects ul li, .certificate ul li, .competitive-programing ul li{
+    color: var(--p-color);
+    margin-bottom: 10px;
+}
+
+.experience ul li span, .projects ul li span, .projects ul li span a   , .certificate ul li span a{
+
+    color: var(--color-theme);
+
+}
+
+.competitive-programing ul{
+    margin-top: 10px;
+}
+
+.competitive-programing{
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 830px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        width: 100%;
+        height: 40vh;
+        z-index: 50;
+        transform: translateX(-25px);
+
+    }
+
+    .user-details {
+        width: 100%;
+        height: 80vh;
+        margin-left: -2vw;
+  margin-top: 40vh;
+    }
+
+    .profile-image ul {
+        width: 10%;
+        float: right;
+        align-items: end;
+        flex-direction: column;
+        position: absolute;
+        right: 20px;
+        margin-right: 25px;
+        top: 10%;
+    }
+
+    .profile-image ul li {
+        margin: 5px;
+    }
+
+    .profile-image h2 , .profile-image p {
+
+        /* top: 0; */
+        position: relative;
+        font-size: 1rem;
+        
+    }
+    .profile-image h2 {
+        font-size: 1.3rem;
+        top:-26%
+
+    }
+    .profile-image p{
+        top: -30%;
+    }
+
+
+    .user-details .skills .personal-skills .skill-menu{
+
+        grid-template-columns: 1fr;
+        gap: 25px;
+
+    }
+
+
+    .user-details .skills .personal-skills .skill-menu .code,
+.user-details .skills .personal-skills .skill-menu .technologies,
+.user-details .skills .personal-skills .skill-menu .web,
+.user-details .skills .personal-skills .skill-menu .test
+{
+
+    font-size: 1rem;
+    border: 1px solid var(--color-theme);
+    border-radius: 5px;
+    padding: 10px;
+}
+    
+
+
+}
