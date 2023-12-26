@@ -12,10 +12,10 @@
     position: fixed;
     box-shadow: 0 0 10px rgba(22, 22, 22, 0.8);
 
-    
+
 }
 
-.profile-image img{
+.profile-image img {
 
     width: 100%;
     height: 100%;
@@ -41,7 +41,7 @@
     font-size: 20px;
 }
 
-.profile-image h2{
+.profile-image h2 {
     width: 100%;
     margin: 10px 0;
     position: absolute;
@@ -49,7 +49,7 @@
     text-align: center;
 }
 
-.profile-image p{
+.profile-image p {
     width: 100%;
     margin: 10px 0;
     position: absolute;
@@ -64,38 +64,38 @@
     background-color: var(--background-color);
     padding: 30px;
     margin-left: 30vw;
-    
+
 }
 
-.user-details .about-me h1{
+.user-details .about-me h1 {
     font-size: 3rem;
     /* font-weight:bold; */
 }
 
 
-.user-details .about-me .dob{
+.user-details .about-me .dob {
     margin-top: 10px;
     color: var(--color-theme);
 }
 
-.user-details .about-me p{
+.user-details .about-me p {
     margin-top: 15px;
     margin-bottom: 30px;
 }
 
-.user-details .about-me  .description{
+.user-details .about-me .description {
     color: var(--p-color);
 }
 
-.user-details .about-me p span{
+.user-details .about-me p span {
     color: var(--color-theme);
 }
 
-.user-details hr{
+.user-details hr {
     color: var(--p-color);
 }
 
-.user-details .education{
+.user-details .education {
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -110,22 +110,23 @@
 
 }
 
-.user-details .education .degree-details{
+.user-details .education .degree-details {
     color: var(--p-color);
     margin-top: 5px;
 }
 
-.user-details .skills .academic-course{
+.user-details .skills .academic-course {
     margin-bottom: 40px;
 }
 
-.user-details .skills .academic-course p{
+.user-details .skills .academic-course p {
     color: var(--p-color);
 }
 
 
-.user-details .education h2, .user-details .skills .academic-course h2,
-    .user-details .skills .personal-skills h2{
+.user-details .education h2,
+.user-details .skills .academic-course h2,
+.user-details .skills .personal-skills h2 {
     margin-bottom: 10px;
 }
 
@@ -134,13 +135,13 @@
 .experience h2 ion-icon,
 .projects h2 ion-icon,
 .user-details .skills .academic-course ion-icon,
-    .user-details .skills .personal-skills ion-icon{
+.user-details .skills .personal-skills ion-icon {
     color: var(--color-theme);
     margin-right: 10px;
     transform: translateY(2px);
 }
 
-.user-details .skills .personal-skills .skill-menu{
+.user-details .skills .personal-skills .skill-menu {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -150,8 +151,7 @@
 .user-details .skills .personal-skills .skill-menu .code,
 .user-details .skills .personal-skills .skill-menu .technologies,
 .user-details .skills .personal-skills .skill-menu .web,
-.user-details .skills .personal-skills .skill-menu .test
-{
+.user-details .skills .personal-skills .skill-menu .test {
 
     /* width: 50%; */
     font-size: 1rem;
@@ -162,69 +162,88 @@
 .user-details .skills .personal-skills .skill-menu .code ul,
 .user-details .skills .personal-skills .skill-menu .technologies ul,
 .user-details .skills .personal-skills .skill-menu .web ul,
-.user-details .skills .personal-skills .skill-menu .test ul{
+.user-details .skills .personal-skills .skill-menu .test ul {
     margin-left: 30px;
     margin-top: 10px;
 }
 
-.user-details .skills .personal-skills .skill-menu .test ul{
+.user-details .skills .personal-skills .skill-menu .test ul {
     margin-bottom: 25px;
 }
 
 .user-details .skills .personal-skills .skill-menu .code ul li,
 .user-details .skills .personal-skills .skill-menu .technologies ul li,
 .user-details .skills .personal-skills .skill-menu .web ul li,
-.user-details .skills .personal-skills .skill-menu .test ul li{
+.user-details .skills .personal-skills .skill-menu .test ul li {
     list-style: none;
-    line-height:150%;
-    
+    line-height: 150%;
+
     color: var(--p-color);
 }
 
-.experience, .projects, .certificate, .competitive-programing{
+.experience,
+.projects,
+.certificate,
+.competitive-programing {
     margin-top: 40px;
-   
+
 }
 
-.experience h2, .projects h2, .certificate h2, .competitive-programing h2{
+.experience h2,
+.projects h2,
+.certificate h2,
+.competitive-programing h2 {
     margin-bottom: 20px;
 }
 
-.experience .years-experience{
+.experience .years-experience {
     color: var(--color-theme);
     margin-bottom: 10px;
 }
 
-.experience .company-name, .projects .Project-name, .certificate .certificate-name{
+.experience .company-name,
+.projects .Project-name,
+.certificate .certificate-name {
     margin-bottom: 10px;
 }
 
 
-.experience .domain, .projects .project-host-details, .certificate .certificate-host-details{
+.experience .domain,
+.projects .project-host-details {
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.experience .python{
+.certificate .certificate-host-details {
+    color: var(--p-color);
+}
+
+.experience .python {
     margin-top: 40px;
 }
 
-.experience ul li, .projects ul li, .certificate ul li, .competitive-programing ul li{
+.experience ul li,
+.projects ul li,
+.certificate ul li,
+.competitive-programing ul li {
     color: var(--p-color);
     margin-bottom: 10px;
 }
 
-.experience ul li span, .projects ul li span, .projects ul li span a   , .certificate ul li span a{
+.experience ul li span,
+.projects ul li span,
+.projects ul li span a,
+.certificate ul li span a {
 
     color: var(--color-theme);
 
 }
 
-.competitive-programing ul{
+.competitive-programing ul {
     margin-top: 10px;
 }
 
-.competitive-programing{
+.competitive-programing {
     margin-bottom: 30px;
 }
 
@@ -245,7 +264,7 @@
         width: 100%;
         height: 80vh;
         margin-left: -2vw;
-  margin-top: 40vh;
+        margin-top: 40vh;
     }
 
     .profile-image ul {
@@ -263,24 +282,26 @@
         margin: 5px;
     }
 
-    .profile-image h2 , .profile-image p {
+    .profile-image h2,
+    .profile-image p {
 
         /* top: 0; */
         position: relative;
         font-size: 1rem;
-        
-    }
-    .profile-image h2 {
-        font-size: 1.3rem;
-        top:-26%
 
     }
-    .profile-image p{
+
+    .profile-image h2 {
+        font-size: 1.3rem;
+        top: -26%
+    }
+
+    .profile-image p {
         top: -30%;
     }
 
 
-    .user-details .skills .personal-skills .skill-menu{
+    .user-details .skills .personal-skills .skill-menu {
 
         grid-template-columns: 1fr;
         gap: 25px;
@@ -289,17 +310,16 @@
 
 
     .user-details .skills .personal-skills .skill-menu .code,
-.user-details .skills .personal-skills .skill-menu .technologies,
-.user-details .skills .personal-skills .skill-menu .web,
-.user-details .skills .personal-skills .skill-menu .test
-{
+    .user-details .skills .personal-skills .skill-menu .technologies,
+    .user-details .skills .personal-skills .skill-menu .web,
+    .user-details .skills .personal-skills .skill-menu .test {
 
-    font-size: 1rem;
-    border: 1px solid var(--color-theme);
-    border-radius: 5px;
-    padding: 10px;
-}
-    
+        font-size: 1rem;
+        border: 1px solid var(--color-theme);
+        border-radius: 5px;
+        padding: 10px;
+    }
+
 
 
 }
