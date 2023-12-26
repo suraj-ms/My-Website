@@ -11,7 +11,7 @@
     height: 100vh;
     position: fixed;
     box-shadow: 0 0 10px rgba(22, 22, 22, 0.8);
-    z-index: 150;
+    /* z-index: 150; */
 
 
 }
