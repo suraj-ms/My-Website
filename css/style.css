@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap'); */
 :root{
-    --background-color : rgb(37, 37, 37);
+    --background-color : rgb(40, 40, 40);
     --color-theme : #45a9c5;
     --p-color : rgb(126, 126, 126);
 }
@@ -30,13 +30,14 @@ body {
     position: fixed;
     top: 0;
     padding: 30px, 15;
-    background-color: var(--background-color);
+    background-color: rgb(37, 37, 37);
     backdrop-filter: blur(5px);
     display: flex;
     align-items: center;
     justify-content: center;
     transition: width 0.4s;
     z-index: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 .side-nav h2{
